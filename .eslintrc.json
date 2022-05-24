@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "plugins": ["react"],
+  "rules": {
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
+}
